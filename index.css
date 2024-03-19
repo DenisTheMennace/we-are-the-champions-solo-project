@@ -1,8 +1,12 @@
+* {
+  box-sizing: border-box;
+}
+
 html,
 body {
   margin: 0;
   padding: 0;
-  background: white;
+  background: #1b1924;
   display: flex;
   justify-content: center;
   margin-top: 20px;
@@ -16,7 +20,6 @@ body {
   flex-direction: column;
   align-items: center;
   border-radius: 5px;
-  box-shadow: 7px 7px 5px lightblue;
 }
 
 #image {
@@ -28,6 +31,16 @@ body {
 #title {
   font-size: 25px;
   color: white;
+}
+
+#title {
+  outline: none;
+}
+
+#title,
+#publish-btn,
+#endorsement-p {
+  caret-color: transparent;
 }
 
 #endorsement-input,
@@ -51,13 +64,26 @@ input {
 #endorsement-input {
   height: 118px;
   padding-left: 19px;
+  padding-top: 12px;
+  background: #444059;
+  border-radius: 8px;
+  color: white;
+  border: none;
+  resize: none;
 }
 
-#from-input,
-#to-input {
-  width: 152px;
+#from-input {
+  width: 150px;
   height: 40px;
-  margin-right: 9px;
+  margin-top: 9px;
+  margin-bottom: 9px;
+  text-align: center;
+}
+
+#to-input {
+  width: 150px;
+  height: 40px;
+  margin-left: 9px;
   margin-top: 9px;
   margin-bottom: 9px;
   text-align: center;
