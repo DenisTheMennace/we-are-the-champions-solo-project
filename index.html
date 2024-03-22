@@ -25,16 +25,20 @@
       <img src="assets/freddie.png" alt="Freddie Mercury" id="image" />
       <h1 id="title">We are the Champions</h1>
       <!-- <input id="endorsement-input" name="endorsement-input" /> -->
-      <textarea id="endorsement-input" placeholder="Write your endorsement here"></textarea>
+      <textarea
+        id="endorsement-input"
+        placeholder="Write your endorsement here"
+        required
+      ></textarea>
       <div id="from-to-inputs">
-        <input id="from-input" placeholder="From" />
-        <input id="to-input" placeholder="To" />
+        <input id="from-input" placeholder="From" required />
+        <input id="to-input" placeholder="To" required />
       </div>
       <button id="publish-btn">Publish</button>
 
       <p id="endorsements-p">- Endorsements -</p>
-      <div id="endorsements-section"></div>
+      <div id="endorsements-container"></div>
     </div>
-    <script src="index.js"></script>
+    <script src="index.js" type="module"></script>
   </body>
 </html>

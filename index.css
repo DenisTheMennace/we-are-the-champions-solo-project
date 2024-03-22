@@ -108,3 +108,25 @@ input {
 #endorsements-section {
   background-color: white;
 }
+
+.endorsement-div {
+  background: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 14px;
+  width: 317px;
+  height: 129px;
+  margin-bottom: 13px;
+  font-size: 14px;
+  height: fit-content;
+}
+
+.to,
+.from {
+  font-weight: bold;
+}
+
+.endorsement {
+  margin: 0;
+}
