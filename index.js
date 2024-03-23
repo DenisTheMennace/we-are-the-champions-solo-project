@@ -51,7 +51,6 @@ function appendEndorsementToDB(endorsement, from, to) {
 }
 
 function createEndorsement(endorsement, from, to) {
-  let numOfLikes = 0;
   const endorsementElement = document.createElement("div");
   endorsementElement.className = "endorsement-div";
   endorsementElement.innerHTML = `
@@ -60,6 +59,7 @@ function createEndorsement(endorsement, from, to) {
   <p class="from">From ${from}</p>`;
   endorsementSection.append(endorsementElement);
 }
+
 onValue(endorsementsInDB, function (snapshot) {
   if (snapshot.exists()) {
     const endorsementsArray = Object.entries(snapshot.val());
