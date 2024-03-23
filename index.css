@@ -121,6 +121,11 @@ input {
   margin-bottom: 13px;
   font-size: 14px;
   height: fit-content;
+  transition: transform 0.5s;
+}
+
+.endorsement-div:hover {
+  transform: scale(1.05);
 }
 
 .to,
