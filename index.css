@@ -112,7 +112,7 @@ input {
 .endorsement-div {
   background: white;
   display: flex;
-  flex-direction: column;
+  flex-direction: column-reverse;
   justify-content: center;
   padding-left: 14px;
   width: 317px;
