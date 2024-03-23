@@ -105,14 +105,15 @@ input {
   font-size: 20px;
 }
 
-#endorsements-section {
-  background-color: white;
+#endorsements-container {
+  display: flex;
+  flex-direction: column-reverse;
 }
 
 .endorsement-div {
   background: white;
   display: flex;
-  flex-direction: column-reverse;
+  flex-direction: column;
   justify-content: center;
   padding-left: 14px;
   width: 317px;
